@@ -17,7 +17,7 @@ test('should emit an activation console message', async ({ page }) => {
 
   expect(
     logs.filter(
-      s => s === 'JupyterLab extension jupyterlab-emil-extension is activated!'
+      s => s === 'JupyterLab extension jupyterlab-symbol-algorithm-extension is activated!'
     )
   ).toHaveLength(1);
 });

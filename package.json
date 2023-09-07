@@ -1,15 +1,15 @@
 {
-  "name": "jupyterlab-emil-extension",
-  "version": "0.1.5",
+  "name": "jupyterlab-symbol-algorithm-extension",
+  "version": "0.1.7",
   "description": "Easily copy unicode char into Jupyter Lab",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/KrunkZhou/jupyterlab-emil-extension",
+  "homepage": "https://github.com/KrunkZhou/jupyterlab-symbol-algorithm-extension",
   "bugs": {
-    "url": "https://github.com/KrunkZhou/jupyterlab-emil-extension/issues"
+    "url": "https://github.com/KrunkZhou/jupyterlab-symbol-algorithm-extension/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -25,7 +25,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KrunkZhou/jupyterlab-emil-extension.git"
+    "url": "https://github.com/KrunkZhou/jupyterlab-symbol-algorithm-extension.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -37,7 +37,7 @@
     "clean": "jlpm clean:lib",
     "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
     "clean:lintcache": "rimraf .eslintcache .stylelintcache",
-    "clean:labextension": "rimraf jupyterlab-emil-extension/labextension jupyterlab-emil-extension/_version.py",
+    "clean:labextension": "rimraf jupyterlab-symbol-algorithm-extension/labextension jupyterlab-symbol-algorithm-extension/_version.py",
     "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
     "eslint": "jlpm eslint:check --fix",
     "eslint:check": "eslint . --cache --ext .ts,.tsx",
@@ -90,6 +90,6 @@
   },
   "jupyterlab": {
     "extension": true,
-    "outputDir": "jupyterlab-emil-extension/labextension"
+    "outputDir": "jupyterlab-symbol-algorithm-extension/labextension"
   }
 }

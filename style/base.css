@@ -148,14 +148,14 @@
 .language-algorithm {
     font-style: normal !important;
     color: #4169e1 !important;
-    font-family: "Noto Sans Mono" !important;
+    font-family: Noto Sans, Helvetica, Arial, serif !important;
 }
 
 code {
     font-style: normal !important;
     color: #4169e1 !important;
     background-color: inherit !important;
-    font-family: "Noto Sans Mono" !important;
+    font-family: Noto Sans, Helvetica, Arial, serif !important;
 }
 
 /*

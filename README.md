@@ -1,8 +1,6 @@
 # jupyterlab-symbol-algorithm-extension
 
-Easily copy unicode char into Jupyter Lab
-
-<img src="./images/1.png" width="400px">
+This extension is only used for SFWRENG 3BB4 course.
 
 ## Requirements
 

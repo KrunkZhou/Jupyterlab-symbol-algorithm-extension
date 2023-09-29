@@ -1,7 +1,7 @@
 {
   "name": "jupyterlab-symbol-algorithm-extension",
   "version": "0.1.9",
-  "description": "Easily copy unicode char into Jupyter Lab",
+  "description": "jupyterlab-symbol-algorithm-extension",
   "keywords": [
     "jupyter",
     "jupyterlab",
